@@ -13,3 +13,7 @@ To integrate the prompt with external applications, the REST API of [cloud.ibm.c
 
 2. **Generate a JWT**:  
    After creating the API key, generate a JWT by following the instructions [here](https://cloud.ibm.com/docs/watson?topic=watson-iam#iam) to connect to the APIs.
+
+
+## Integration Test
+[An integration](./integration_test.py) test was conducted with a Python program and IBM Cloud, where a JWT token was generated. This token was then used to create a prompt with included context for answering questions.
