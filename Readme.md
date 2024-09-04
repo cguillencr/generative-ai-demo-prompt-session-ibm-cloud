@@ -1,18 +1,31 @@
 # Repository Purpose
 
-In [An Integration](./SRE%20assistant.ipynb), you'll find a functional example of how to create an agent that assists customers in finding the next course to take by following three major steps:
+In [An Integration](./SRE%20assistant.ipynb), you'll find a functional example of how to create an agent that assists internal employees in finding the next course to take during their onboarding process by following three major steps:
 
 1. **Index the Content of the File**
 
-   The content of the document was indexed into a Python dictionary.
+   The content of the Onboarding Programs Document was indexed into a dictionary.
 
 2. **Machine Learning Techniques**
 
-   The agent uses a `cosine_similarity` technique to match the closest content to the customer's query.
+   The agent uses a `cosine_similarity` technique to match the content most relevant to the employee's query.
 
 3. **Model Integration to Augment the Content**
 
    The response is enhanced using the `google/flan-t5-xxl` model running on IBM Cloud.
+
+![SRE_assistant](./images/SRE_assistant.png)
+
+## Use Cases
+
+- An internal employee finishes a class and needs assistance in finding the next course to take.
+- An internal employee is taking a class and needs more information about the course.
+
+## Future Potential
+
+We could use this solution to automatically respond to tickets created by support teams.
+
+![Support_Assistant](./images/Support_Assistant.png)
 
 
 # Other resources
